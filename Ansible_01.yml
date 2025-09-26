@@ -2,6 +2,6 @@
 - name: Basic playbook
   hosts: localhost
   task:
-  - name: Print a message
-    debug:
-     msg: "Hello, World!"
+    - name: Print a message
+      debug:
+        msg: "Hello, World!"
