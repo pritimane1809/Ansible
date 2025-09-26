@@ -1,0 +1,9 @@
+---
+- name: Create a file
+  hosts: all
+  become: yes
+  tasks:
+    - name: Create a hello.txt file
+      copy:
+        dest: /tmp/hello.txt
+        content: "Hello from Ansible!\n"
