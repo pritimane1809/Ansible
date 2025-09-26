@@ -2,7 +2,7 @@
 - name: Dates playbook
   hosts: servers
   task:
-  - name: show date
-    command: date
-  - name: Show date again
-    command: date   
+    - name: show date
+      command: date
+    - name: Show date again
+      command: date   
